@@ -117,7 +117,7 @@ public class ListRand {
 
         } while (current.Next != null);
 
-        fs.Dispose();
+        fs.Close();
     }
 
     public void Deserialize(FileStream fs) {
